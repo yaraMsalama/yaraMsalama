@@ -1,21 +1,22 @@
-# 👋 Welcome to Yara Mohamed Salama's GitHub Profile!
+# 👋 Welcome to Yara M. Salama's GitHub Profile!
 
-Hi, I'm **Yara Mohamed Salama**, an **AEC Informatics Engineer** based in Maadi, Cairo, Egypt. I'm passionate about merging civil engineering with cutting-edge software solutions to optimize Architecture, Engineering, and Construction (AEC) processes. With expertise in BIM tools, software development, and project management, I strive to create innovative solutions that enhance project efficiency and sustainability.
+Hi, I'm **Yara Mohamed Salama**, an **AEC Software Developer & Construction Engineer** based in Maadi, Cairo, Egypt. I specialize in designing and building intelligent tools to enhance design workflows, data interoperability, and project coordination in the Architecture, Engineering, and Construction (AEC) industry. With expertise in BIM tools, software development, and project management, I create user-centered solutions using C#, Python, JavaScript, and more to drive digital transformation in AEC.
 
-![Profile Banner](https://via.placeholder.com/1200x300.png?text=Yara+Mohamed+Salama+-+AEC+Informatics+Engineer)
+
 
 ---
 
 ## 🚀 About Me
 
 - 🎓 **Education**: B.Sc. in Civil Engineering (Egyptian Chinese University, 2024, CGPA: 3.61) | Professional Diploma in AEC Informatics (ITI, 2024–2025)
-- 💻 **Expertise**: BIM modeling, software development (C#, Python, .NET), project management (Primavera P6), and quantity surveying
-- 🛠 **Tools & Technologies**: Revit, AutoCAD, Navisworks, Dynamo, Primavera P6, C#, SQL, ASP.NET, Python
-- 🌍 **Mission**: To develop intelligent AEC software solutions that streamline construction workflows and promote sustainable design
+- 💻 **Expertise**: BIM modeling, software development (C#, Python, JavaScript, .NET), web and desktop application development, project management
+- 🛠 **Tools & Technologies**: Revit, AutoCAD, Navisworks, Dynamo, Primavera P6, C#, SQL, ASP.NET, HTML5, CSS3, JavaScript, Web Audio API
+- 🌍 **Mission**: To develop innovative AEC software solutions that optimize construction workflows and promote sustainable design
 - 📍 **Location**: Maadi, Cairo, Egypt
 - 📧 **Email**: [yara.salama47@gmail.com](mailto:yara.salama47@gmail.com)
 - 🔗 **LinkedIn**: [in/yaramsalama](https://www.linkedin.com/in/yaramsalama/)
 - 🐙 **GitHub**: [yaraMsalama](https://github.com/yaraMsalama)
+- 📱 **Mobile**: +20 127 896 4607
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yaraMsalama&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yaraMsalama&layout=compact&theme=radical)
@@ -27,16 +28,16 @@ Hi, I'm **Yara Mohamed Salama**, an **AEC Informatics Engineer** based in Maadi,
 | **Category**                  | **Skills**                                                                 |
 |-------------------------------|---------------------------------------------------------------------------|
 | **AEC & BIM Software**        | AutoCAD, Revit (Architecture & Structure), Navisworks, Dynamo, Primavera P6, CSI Applications (ETABS, SAP2000), Revit API, AutoCAD API |
-| **Programming Languages**     | C# (OOP), C/C++, Python                                                  |
+| **Programming Languages**     | C# (OOP), C/C++, Python, JavaScript                                       |
 | **Backend Development (.NET)**| SQL, Entity Framework (EF), LINQ, ASP.NET (MVC & APIs)                   |
-| **Web Development**           | HTML5, CSS3, JavaScript                                                  |
+| **Web Development**           | HTML5, CSS3, JavaScript, Web Audio API                                   |
 | **Desktop Application Dev**   | Windows Presentation Foundation (WPF), Windows Forms                     |
 | **Project Management**        | Planning & Scheduling, Cost Management & Estimation, Quality & Safety Management, Quantity Surveying, Claims & Delay Analysis (FIDIC) |
 | **Additional Competencies**   | BIM Modeling & Coordination, Engineering Software Integration & Automation |
 
 ![Skills Distribution Graph](https://via.placeholder.com/600x300.png?text=Skills+Distribution+Graph)
 
-*Note*: The skills graph is a placeholder. You can replace it with a custom chart (e.g., bar chart of proficiency levels) using [QuickChart.io](https://quickchart.io/).
+*Note*: The skills graph is a placeholder. You can replace it with a custom chart (e.g., pie chart of proficiency levels) using [QuickChart.io](https://quickchart.io/).
 
 ---
 
@@ -45,11 +46,11 @@ Hi, I'm **Yara Mohamed Salama**, an **AEC Informatics Engineer** based in Maadi,
 ### Information Technology Institute (ITI) | Oct 2024 – July 2025
 **Professional Diploma in AEC Informatics**  
 - Intake 45, Smart Village Branch  
-- Focused on C#, SQL, .NET, and web development for AEC applications
+- Focused on C#, SQL, .NET, web development, and AEC software solutions
 
-### Egyptian Chinese University | B.Sc. in Civil Engineering | 2019 – 2024
+### Egyptian Chinese University | B.Sc. in Civil Engineering | Oct 2019 – Jun 2024
 - **CGPA**: 3.61 (Academic Status: Excellence)  
-- Specialized in BIM and construction management
+- Specialized in BIM, construction management, and structural analysis
 
 ---
 
@@ -71,30 +72,90 @@ Hi, I'm **Yara Mohamed Salama**, an **AEC Informatics Engineer** based in Maadi,
 
 ## 📈 Key Projects
 
-### 🏢 Porto Heliopolis Residential Compound (Graduation Project)
-- **Description**: Co-led a project management simulation for a 3,500 sqm L-shaped tower with 3 basements and 11 floors  
-- **Tech Stack**: Revit, Primavera P6, AutoCAD  
-- **Achievements**:  
-  - Designed and modeled the structure using BIM technology  
-  - Developed comprehensive project schedules and cost estimates using Primavera P6  
-  - Applied claims and delay analysis techniques based on FIDIC guidelines  
+### Desktop Applications
+
+#### 🖥 ToDo Application - MVVM Implementation (WPF)
+- **Description**: Developed a task management desktop application using WPF with MVVM architecture  
+- **Tech Stack**: C#, WPF, CommunityToolkit.Mvvm  
+- **Key Features**:  
+  - MVVM architecture with separate Model (TaskItem), ViewModel (TaskViewModel), and Views (MainWindow, EditTaskWindow)  
+  - TaskItem class with INotifyPropertyChanged for Name, Description, Deadline, and IsDone status  
+  - ObservableCollection<TaskItem> for dynamic task management  
+  - RelayCommand for add/edit/remove tasks with CanExecute logic  
+  - Two-way data binding and visual indicators (50% opacity for completed tasks)  
+  - Clean UI with blue action buttons and consistent layout  
+- **Impact**: Enhanced task management efficiency with extensible architecture  
 - **Repo**: [Link to Repo](#)
 
-### 🛠 BIM Automation Script
-- **Description**: Developed a Dynamo script to automate repetitive tasks in Revit, improving modeling efficiency  
-- **Tech Stack**: Dynamo, Python, Revit API  
-- **Impact**: Reduced modeling time by 25% for a mid-scale commercial project  
+#### 🖥 NexGen Management System (Windows Forms)
+- **Description**: Built a project management desktop application for AEC workflows  
+- **Tech Stack**: C#, Windows Forms, Entity Framework (Code First), LINQ  
+- **Key Features**:  
+  - Entity Framework for seamless data modeling and LINQ for optimized querying  
+  - Intuitive UI with CRUD operations for project tracking  
+  - Applied OOP principles and database-first design  
+- **Impact**: Streamlined project management with efficient data handling  
 - **Repo**: [Link to Repo](#)
 
-### 🌍 GIS-Based Site Analysis Tool
-- **Description**: Built a Python-based tool for site suitability analysis, integrating geospatial data  
-- **Tech Stack**: Python, QGIS, PostGIS  
-- **Impact**: Streamlined site selection for urban planning projects  
+#### 🏢 Revit API Commands
+- **Description**: Developed Revit API plugins to automate BIM tasks  
+- **Tech Stack**: C#, Revit API  
+- **Commands**:  
+  1. **Change Instance’s Location**: Dynamically adjusts element positions in Revit models  
+  2. **Generate Sheets From Views**: Automates sheet creation from selected views  
+  3. **Generate Wall Instance**: Creates parametric wall elements in Revit  
+  4. **Generate Floor Instance**: Generates floor elements with customizable parameters  
+- **Impact**: Reduced manual BIM tasks by 30%  
+- **Repo**: [Link to Repo](#)
+
+#### 🏛 Dynamo - The Bosjes Chapel
+- **Description**: Modeled the organic roof of the Bosjes Chapel using Dynamo scripting  
+- **Tech Stack**: Dynamo, Python  
+- **Key Features**:  
+  - Generated NURBS curves with `NurbsCurve.ByPoints` from `Point.ByCoordinates` and sliders  
+  - Created a surface with `Surface.ByLoft` and structural elements with `Surface.Isoline` and `Solid.ByLoft`  
+  - Incorporated openings using `Cylinder.ByPointsRadius` and `Surface.TrimWithEntity`  
+  - Adjustable parameters for roof shape, structure, and openings via sliders  
+- **Impact**: Enabled parametric design exploration for complex architectural forms  
+- **Repo**: [Link to Repo](#)
+
+### Web Applications
+
+#### 🌐 NGY Web Viewer
+- **Description**: A web-based BIM visualization tool for loading and analyzing IFC models (tested on ITI’s building model)  
+- **Tech Stack**: HTML5, CSS3, JavaScript, WebGL (for IFC rendering)  
+- **Key Features**:  
+  - High-performance IFC model loading and 3D rendering  
+  - Dynamic sectioning with adjustable X/Y/Z clipping planes  
+  - Smart measurement tools (length, angle, area) with snapping functionality  
+  - Undo/redo system for user interactions  
+  - Intuitive camera controls (orbit, pan, zoom)  
+- **Impact**: Enhanced real-time BIM analysis for AEC professionals  
+- **Repo**: [Link to Repo](#)
+
+#### ♟ Chess Leaders
+- **Description**: Built an interactive website summarizing *The Soviet Chess Primer*  
+- **Tech Stack**: HTML5, CSS3, JavaScript  
+- **Key Features**:  
+  - Lesson pages with responsive design  
+  - User authentication (login/register)  
+  - Intuitive UI for chess beginners  
+- **Impact**: Combined passion for chess with web development skills  
+- **Repo**: [Link to Repo](#)
+
+#### 🎹 Interactive Piano Web Application – LaLa Land
+- **Description**: Developed a virtual piano web app for playing melodies in the browser  
+- **Tech Stack**: HTML5, CSS3, JavaScript, Web Audio API  
+- **Key Features**:  
+  - Keyboard/mouse controls mapped to piano notes with visual feedback  
+  - Toggleable key labels, volume control slider, and animated key presses  
+  - Responsive design for various screen sizes  
+- **Impact**: Created an engaging, accessible musical experience  
 - **Repo**: [Link to Repo](#)
 
 ![Project Impact Graph](https://via.placeholder.com/600x300.png?text=Project+Impact+Graph)
 
-*Note*: The project impact graph is a placeholder. You can create a chart (e.g., bar chart showing time saved or cost reduction) using [QuickChart.io](https://quickchart.io/).
+*Note*: The project impact graph is a placeholder. You can create a chart (e.g., bar chart showing time saved or user engagement) using [QuickChart.io](https://quickchart.io/).
 
 ---
 
@@ -134,8 +195,9 @@ Hi, I'm **Yara Mohamed Salama**, an **AEC Informatics Engineer** based in Maadi,
 - **Email**: [yara.salama47@gmail.com](mailto:yara.salama47@gmail.com)  
 - **GitHub**: [yaraMsalama](https://github.com/yaraMsalama)  
 - **Mobile**: +20 127 896 4607  
+- **Address**: Maadi, Cairo, Egypt  
 
-![Connect Icons](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) ![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+![Connect Icons](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) ![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
@@ -148,6 +210,6 @@ Hi, I'm **Yara Mohamed Salama**, an **AEC Informatics Engineer** based in Maadi,
 
 ## 🔮 What's Next?
 
-I'm currently diving deeper into **AEC software development** through my ITI program, exploring AI-driven BIM automation and digital twins for construction. Stay tuned for my upcoming projects!
+I'm advancing my skills in **AI-driven BIM automation** and **digital twins** through my ITI program, with a focus on creating innovative AEC software solutions. Stay tuned for more exciting projects!
 
 *Last updated: July 27, 2025*
